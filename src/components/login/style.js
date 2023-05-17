@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+
+export const PageContainer = styled.main`
+    max-width: 1440px;
+
+`;
+
+
 export const LoginContainer = styled.div`
   width: 600px;
   height: 819px;
@@ -9,10 +16,11 @@ export const LoginContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
   img{
     margin-top: 53px;
     width: 388px;
-  }
+  } 
   `;
 
 export const InputForm = styled.input`
@@ -50,3 +58,4 @@ export const InputLogin = styled.button`
   font-weight: 600;
 
 `;
+

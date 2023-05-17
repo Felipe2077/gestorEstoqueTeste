@@ -8,14 +8,18 @@ const GlobalStyle = createGlobalStyle`
 
 }  
   body {
-    max-width: 1440px;
+    max-width: 100vw;
     height: 100vh;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Inter', sans-serif;
-    background-color: #D9D9D9;
+    background-color: #EEE;
+    box-shadow: inset 0 -440px #002837;
+ 
+    
+
   }
 `;
 

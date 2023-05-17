@@ -1,5 +1,6 @@
 import GlobalStyle from "../../styles/Global"
 import Login from "../login"
+import { Footer } from "./style"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <GlobalStyle />
       <Login />
+      <Footer />
     </div>
   )
 }
