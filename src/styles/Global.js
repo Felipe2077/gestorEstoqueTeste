@@ -16,9 +16,7 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     font-family: 'Inter', sans-serif;
     background-color: #EEE;
-    box-shadow: inset 0 -440px #002837;
- 
-    
+    box-shadow: inset 0 -440px #002837;    
 
   }
 `;
